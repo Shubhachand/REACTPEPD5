@@ -1,7 +1,13 @@
 import React from 'react';
 class Content extends React.Component {
     render(){
-        return(<p>I am class component</p>)
+        return(
+            <div>
+                <h1>Content</h1>
+                <p>Content</p>
+                
+            </div>
+        )
     }
     
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 
-function body() {
+function body({name}) {
   return (
-    <div>body</div>
+    <div>My name is {name}</div>
   )
 }
 
