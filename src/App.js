@@ -13,19 +13,20 @@
 // import { AnimalContext } from './components/AnimalContext';
 // import Consumer from './components/Consumer';
 // import Testing from './components/Testing';
-import { HelperUtility } from './components/Utlilty';
+// import { HelperUtility } from './components/Utlilty';
 import Helper from './component2/Helper';
-import { CreateHelper,CreateHelper2 } from './component2/Helper';
-import Array from './component2/Array';
+// import { CreateHelper,CreateHelper2 } from './component2/Helper';
+// import Array from './component2/Array';
+import './App.css';
+ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
  
 
   return (
     <div>
-      <Array/>
+    
       <Helper/>
-      <CreateHelper />
-      <CreateHelper2 />
+      
     </div>
   );
 }
