@@ -14,19 +14,23 @@
 // import Consumer from './components/Consumer';
 // import Testing from './components/Testing';
 // import { HelperUtility } from './components/Utlilty';
-import Helper from './component2/Helper';
+// import Helper from './component2/Helper';
 // import { CreateHelper,CreateHelper2 } from './component2/Helper';
 // import Array from './component2/Array';
 import './App.css';
  import 'bootstrap/dist/css/bootstrap.min.css';
+//  import Hero from './component2/Navba';
+//  import Header from './component2/Header';
+//  import Navbar from './component2/Navbar';
+//  import Footer from './component2/Footer';
+import FetchResources from './component2/FetchResources';
 function App() {
  
 
   return (
     <div>
     
-      <Helper/>
-      
+     <FetchResources/>
     </div>
   );
 }
